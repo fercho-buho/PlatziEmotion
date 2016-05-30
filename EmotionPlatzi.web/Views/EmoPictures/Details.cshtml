@@ -23,7 +23,8 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Path)
+           @* @Html.DisplayFor(model => model.Path)*@
+            <img src="~/@Url.Content(Model.Path)" class="img-circle" />
         </dd>
 
     </dl>
